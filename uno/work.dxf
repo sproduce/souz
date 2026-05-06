@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-smart_light_line
+smart_socket
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-11081.85256796032
+10573.57276776969
  22
-7351.426434221435
+7112.729978596986
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-7938.346812596353
+11668.40413844216
  41
-1.798245614035088
+1.913098236775819
  42
 50
  43
@@ -2533,7 +2533,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-unicode
+GOST-2_304_TYPE-B
  70
     0
  40
@@ -2547,7 +2547,7 @@ unicode
  42
 1
   3
-unicode
+GOST-2_304_TYPE-B
   4
 
   0
@@ -2561,7 +2561,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-GOST-2_304_TYPE-B
+unicode
  70
     0
  40
@@ -2575,7 +2575,7 @@ GOST-2_304_TYPE-B
  42
 1
   3
-GOST-2_304_TYPE-B
+unicode
   4
 
   0
@@ -57033,103 +57033,9 @@ AcDbLine
  21
 8500.125440824579
   0
-MTEXT
+LINE
   5
 7B5
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByBlock
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-13400
- 20
-7500
- 30
-0
- 40
-70
- 41
-159.4444444444445
- 71
-    4
- 72
-    1
-  1
-Бра
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-LINE
-  5
-7B6
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByBlock
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-13800.41130095668
- 20
-7800.437084015784
- 11
-13716.19154691279
- 21
-7600
-  0
-LINE
-  5
-7B7
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByBlock
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-13717.18998794743
- 20
-7600
- 11
-13298.63519870392
- 21
-7600
-  0
-LINE
-  5
-7B8
 100
 AcDbEntity
   8
@@ -57153,7 +57059,7 @@ AcDbLine
   0
 LINE
   5
-7B9
+7B6
 100
 AcDbEntity
   8
@@ -57175,55 +57081,9 @@ AcDbLine
  21
 7300
   0
-MTEXT
-  5
-7BA
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByBlock
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-14300
- 20
-7200
- 30
-0
- 40
-70
- 41
-159.4444444444445
- 71
-    4
- 72
-    1
-  1
-Бра
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
 INSERT
   5
-7BB
+7B7
 100
 AcDbEntity
   8
@@ -57263,7 +57123,7 @@ socket1
   0
 INSERT
   5
-7BC
+7B8
 100
 AcDbEntity
   8
@@ -57303,7 +57163,7 @@ data
   0
 INSERT
   5
-7BD
+7B9
 100
 AcDbEntity
   8
@@ -57343,7 +57203,7 @@ socket1
   0
 INSERT
   5
-7BE
+7BA
 100
 AcDbEntity
   8
@@ -57383,7 +57243,7 @@ data
   0
 INSERT
   5
-7BF
+7BB
 100
 AcDbEntity
   8
@@ -57423,7 +57283,7 @@ socket3
   0
 INSERT
   5
-7C0
+7BC
 100
 AcDbEntity
   8
@@ -57463,7 +57323,7 @@ socket-rj45
   0
 INSERT
   5
-7C1
+7BD
 100
 AcDbEntity
   8
@@ -57503,7 +57363,7 @@ data
   0
 INSERT
   5
-7C2
+7BE
 100
 AcDbEntity
   8
@@ -57543,7 +57403,7 @@ socket1
   0
 LINE
   5
-7C3
+7BF
 100
 AcDbEntity
   8
@@ -57567,7 +57427,7 @@ AcDbLine
   0
 LINE
   5
-7C4
+7C0
 100
 AcDbEntity
   8
@@ -57591,7 +57451,7 @@ AcDbLine
   0
 LINE
   5
-7C5
+7C1
 100
 AcDbEntity
   8
@@ -57615,7 +57475,7 @@ AcDbLine
   0
 LINE
   5
-7C6
+7C2
 100
 AcDbEntity
   8
@@ -57637,101 +57497,9 @@ AcDbLine
  21
 9800
   0
-MTEXT
-  5
-7C7
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByBlock
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-19800
- 20
-12400
- 30
-0
- 40
-70
- 41
-159.4444444444445
- 71
-    4
- 72
-    1
-  1
-Бра
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-7C8
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByBlock
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-19800
- 20
-9700
- 30
-0
- 40
-70
- 41
-159.4444444444445
- 71
-    4
- 72
-    1
-  1
-Бра
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
 LINE
   5
-7C9
+7C3
 100
 AcDbEntity
   8
@@ -57755,7 +57523,7 @@ AcDbLine
   0
 MTEXT
   5
-7CA
+7C4
 100
 AcDbEntity
   8
@@ -57801,7 +57569,7 @@ unicode
   0
 LINE
   5
-7CB
+7C5
 100
 AcDbEntity
   8
@@ -57825,7 +57593,7 @@ AcDbLine
   0
 INSERT
   5
-7CC
+7C6
 100
 AcDbEntity
   8
@@ -57865,7 +57633,7 @@ socket1
   0
 INSERT
   5
-7CD
+7C7
 100
 AcDbEntity
   8
@@ -57905,7 +57673,7 @@ socket-rj45
   0
 INSERT
   5
-7CE
+7C8
 100
 AcDbEntity
   8
@@ -57945,7 +57713,7 @@ socket3
   0
 INSERT
   5
-7CF
+7C9
 100
 AcDbEntity
   8
@@ -57985,7 +57753,7 @@ socket1
   0
 INSERT
   5
-7D0
+7CA
 100
 AcDbEntity
   8
@@ -58025,7 +57793,7 @@ socket2
   0
 INSERT
   5
-7D1
+7CB
 100
 AcDbEntity
   8
@@ -58065,7 +57833,7 @@ socket1
   0
 INSERT
   5
-7D2
+7CC
 100
 AcDbEntity
   8
@@ -58105,7 +57873,7 @@ socket-rj45
   0
 INSERT
   5
-7D3
+7CD
 100
 AcDbEntity
   8
@@ -58145,7 +57913,7 @@ socket1
   0
 INSERT
   5
-7D4
+7CE
 100
 AcDbEntity
   8
@@ -58185,7 +57953,7 @@ socket2
   0
 INSERT
   5
-7D5
+7CF
 100
 AcDbEntity
   8
@@ -58225,7 +57993,7 @@ socket-rj45
   0
 INSERT
   5
-7D6
+7D0
 100
 AcDbEntity
   8
@@ -58265,7 +58033,7 @@ socket1
   0
 INSERT
   5
-7D7
+7D1
 100
 AcDbEntity
   8
@@ -58305,7 +58073,7 @@ socket1
   0
 INSERT
   5
-7D8
+7D2
 100
 AcDbEntity
   8
@@ -58345,7 +58113,7 @@ socket-rj45
   0
 INSERT
   5
-7D9
+7D3
 100
 AcDbEntity
   8
@@ -58385,7 +58153,7 @@ data
   0
 INSERT
   5
-7DA
+7D4
 100
 AcDbEntity
   8
@@ -58425,7 +58193,7 @@ data
   0
 INSERT
   5
-7DB
+7D5
 100
 AcDbEntity
   8
@@ -58465,7 +58233,7 @@ socket1
   0
 INSERT
   5
-7DC
+7D6
 100
 AcDbEntity
   8
@@ -58505,7 +58273,7 @@ socket1
   0
 INSERT
   5
-7DD
+7D7
 100
 AcDbEntity
   8
@@ -58545,7 +58313,7 @@ socket1
   0
 INSERT
   5
-7DE
+7D8
 100
 AcDbEntity
   8
@@ -58585,7 +58353,7 @@ socket2
   0
 INSERT
   5
-7DF
+7D9
 100
 AcDbEntity
   8
@@ -58625,7 +58393,7 @@ socket-rj45
   0
 INSERT
   5
-7E0
+7DA
 100
 AcDbEntity
   8
@@ -58665,7 +58433,7 @@ data
   0
 INSERT
   5
-7E1
+7DB
 100
 AcDbEntity
   8
@@ -58705,7 +58473,7 @@ socket1
   0
 INSERT
   5
-7E2
+7DC
 100
 AcDbEntity
   8
@@ -58745,7 +58513,7 @@ lamp
   0
 INSERT
   5
-7E3
+7DD
 100
 AcDbEntity
   8
@@ -58785,7 +58553,7 @@ lamp
   0
 INSERT
   5
-7E4
+7DE
 100
 AcDbEntity
   8
@@ -58825,7 +58593,7 @@ lamp
   0
 INSERT
   5
-7E5
+7DF
 100
 AcDbEntity
   8
@@ -58865,7 +58633,7 @@ lamp
   0
 INSERT
   5
-7E6
+7E0
 100
 AcDbEntity
   8
@@ -58905,7 +58673,7 @@ lamp
   0
 INSERT
   5
-7E7
+7E1
 100
 AcDbEntity
   8
@@ -58945,7 +58713,7 @@ lamp
   0
 INSERT
   5
-7E8
+7E2
 100
 AcDbEntity
   8
@@ -58985,7 +58753,7 @@ lamp
   0
 INSERT
   5
-7E9
+7E3
 100
 AcDbEntity
   8
@@ -59025,7 +58793,7 @@ lamp
   0
 INSERT
   5
-7EA
+7E4
 100
 AcDbEntity
   8
@@ -59065,7 +58833,7 @@ lamp
   0
 INSERT
   5
-7EB
+7E5
 100
 AcDbEntity
   8
@@ -59105,7 +58873,7 @@ lamp
   0
 INSERT
   5
-7EC
+7E6
 100
 AcDbEntity
   8
@@ -59145,7 +58913,7 @@ lamp
   0
 INSERT
   5
-7ED
+7E7
 100
 AcDbEntity
   8
@@ -59185,7 +58953,7 @@ lamp
   0
 INSERT
   5
-7EE
+7E8
 100
 AcDbEntity
   8
@@ -59225,7 +58993,7 @@ lamp
   0
 INSERT
   5
-7EF
+7E9
 100
 AcDbEntity
   8
@@ -59265,7 +59033,7 @@ lamp
   0
 INSERT
   5
-7F0
+7EA
 100
 AcDbEntity
   8
@@ -59305,7 +59073,7 @@ lamp
   0
 INSERT
   5
-7F1
+7EB
 100
 AcDbEntity
   8
@@ -59345,7 +59113,7 @@ lamp
   0
 INSERT
   5
-7F2
+7EC
 100
 AcDbEntity
   8
@@ -59385,7 +59153,7 @@ lamp
   0
 INSERT
   5
-7F3
+7ED
 100
 AcDbEntity
   8
@@ -59425,7 +59193,7 @@ lamp
   0
 INSERT
   5
-7F4
+7EE
 100
 AcDbEntity
   8
@@ -59465,7 +59233,7 @@ lamp
   0
 INSERT
   5
-7F5
+7EF
 100
 AcDbEntity
   8
@@ -59505,7 +59273,7 @@ lamp
   0
 INSERT
   5
-7F6
+7F0
 100
 AcDbEntity
   8
@@ -59545,7 +59313,7 @@ lamp
   0
 INSERT
   5
-7F7
+7F1
 100
 AcDbEntity
   8
@@ -59585,7 +59353,7 @@ lamp
   0
 INSERT
   5
-7F8
+7F2
 100
 AcDbEntity
   8
@@ -59625,7 +59393,7 @@ lamp
   0
 INSERT
   5
-7F9
+7F3
 100
 AcDbEntity
   8
@@ -59665,7 +59433,7 @@ lamp
   0
 INSERT
   5
-7FA
+7F4
 100
 AcDbEntity
   8
@@ -59705,7 +59473,7 @@ lamp
   0
 INSERT
   5
-7FB
+7F5
 100
 AcDbEntity
   8
@@ -59745,7 +59513,7 @@ lamp
   0
 INSERT
   5
-7FC
+7F6
 100
 AcDbEntity
   8
@@ -59785,7 +59553,7 @@ lamp
   0
 INSERT
   5
-7FD
+7F7
 100
 AcDbEntity
   8
@@ -59825,7 +59593,7 @@ lamp
   0
 INSERT
   5
-7FE
+7F8
 100
 AcDbEntity
   8
@@ -59865,7 +59633,7 @@ lamp
   0
 INSERT
   5
-7FF
+7F9
 100
 AcDbEntity
   8
@@ -59884,6 +59652,246 @@ lamp
 13000
  20
 9000
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+7FA
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+14200
+ 20
+9100
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+7FB
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+14200
+ 20
+9000
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+7FC
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+15400
+ 20
+9000
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+7FD
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+15400
+ 20
+9100
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+7FE
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+15400
+ 20
+10000
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+7FF
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+14200
+ 20
+10000
  30
 0
  41
@@ -59923,7 +59931,7 @@ lamp
  10
 14200
  20
-9100
+10100
  30
 0
  41
@@ -59961,9 +59969,9 @@ AcDbBlockReference
   2
 lamp
  10
-14200
+15400
  20
-9000
+10100
  30
 0
  41
@@ -59986,246 +59994,6 @@ lamp
 INSERT
   5
 802
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-15400
- 20
-9000
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-803
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-15400
- 20
-9100
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-804
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-15400
- 20
-10000
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-805
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-14200
- 20
-10000
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-806
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-14200
- 20
-10100
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-807
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-15400
- 20
-10100
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-808
 100
 AcDbEntity
   8
@@ -60265,7 +60033,7 @@ lamp
   0
 INSERT
   5
-809
+803
 100
 AcDbEntity
   8
@@ -60305,7 +60073,7 @@ lamp
   0
 INSERT
   5
-80A
+804
 100
 AcDbEntity
   8
@@ -60345,7 +60113,7 @@ lamp
   0
 INSERT
   5
-80B
+805
 100
 AcDbEntity
   8
@@ -60385,7 +60153,7 @@ lamp
   0
 INSERT
   5
-80C
+806
 100
 AcDbEntity
   8
@@ -60425,7 +60193,7 @@ lamp
   0
 INSERT
   5
-80D
+807
 100
 AcDbEntity
   8
@@ -60465,7 +60233,7 @@ lamp
   0
 INSERT
   5
-80E
+808
 100
 AcDbEntity
   8
@@ -60505,7 +60273,7 @@ lamp
   0
 INSERT
   5
-80F
+809
 100
 AcDbEntity
   8
@@ -60545,7 +60313,7 @@ lamp
   0
 INSERT
   5
-810
+80A
 100
 AcDbEntity
   8
@@ -60585,7 +60353,7 @@ lamp
   0
 INSERT
   5
-811
+80B
 100
 AcDbEntity
   8
@@ -60625,7 +60393,7 @@ lamp
   0
 INSERT
   5
-812
+80C
 100
 AcDbEntity
   8
@@ -60665,7 +60433,7 @@ lamp
   0
 INSERT
   5
-813
+80D
 100
 AcDbEntity
   8
@@ -60705,7 +60473,7 @@ lamp
   0
 INSERT
   5
-814
+80E
 100
 AcDbEntity
   8
@@ -60745,7 +60513,7 @@ lamp
   0
 INSERT
   5
-815
+80F
 100
 AcDbEntity
   8
@@ -60785,7 +60553,7 @@ lamp
   0
 INSERT
   5
-816
+810
 100
 AcDbEntity
   8
@@ -60804,6 +60572,246 @@ lamp
 7200
  20
 6300
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+811
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+7200
+ 20
+5600
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+812
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+6500
+ 20
+5600
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+813
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+6500
+ 20
+6300
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+814
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+9100
+ 20
+10200
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+815
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+9100
+ 20
+10300
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+816
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+9100
+ 20
+11300
  30
 0
  41
@@ -60841,9 +60849,9 @@ AcDbBlockReference
   2
 lamp
  10
-7200
+9100
  20
-5600
+11400
  30
 0
  41
@@ -60881,9 +60889,9 @@ AcDbBlockReference
   2
 lamp
  10
-6500
+9100
  20
-5600
+12500
  30
 0
  41
@@ -60921,9 +60929,9 @@ AcDbBlockReference
   2
 lamp
  10
-6500
+9100
  20
-6300
+12400
  30
 0
  41
@@ -60961,9 +60969,9 @@ AcDbBlockReference
   2
 lamp
  10
-9100
+7500
  20
-10200
+12400
  30
 0
  41
@@ -61001,9 +61009,9 @@ AcDbBlockReference
   2
 lamp
  10
-9100
+7500
  20
-10300
+12500
  30
 0
  41
@@ -61041,9 +61049,9 @@ AcDbBlockReference
   2
 lamp
  10
-9100
+7500
  20
-11300
+11400
  30
 0
  41
@@ -61081,246 +61089,6 @@ AcDbBlockReference
   2
 lamp
  10
-9100
- 20
-11400
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-81E
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-9100
- 20
-12500
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-81F
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-9100
- 20
-12400
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-820
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-7500
- 20
-12400
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-821
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-7500
- 20
-12500
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-822
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-7500
- 20
-11400
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-823
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
 7500
  20
 11300
@@ -61345,7 +61113,7 @@ lamp
   0
 INSERT
   5
-824
+81E
 100
 AcDbEntity
   8
@@ -61385,7 +61153,7 @@ lamp
   0
 INSERT
   5
-825
+81F
 100
 AcDbEntity
   8
@@ -61425,7 +61193,7 @@ lamp
   0
 INSERT
   5
-826
+820
 100
 AcDbEntity
   8
@@ -61465,7 +61233,7 @@ lamp
   0
 INSERT
   5
-827
+821
 100
 AcDbEntity
   8
@@ -61505,7 +61273,7 @@ lamp
   0
 INSERT
   5
-828
+822
 100
 AcDbEntity
   8
@@ -61545,7 +61313,7 @@ lamp
   0
 INSERT
   5
-829
+823
 100
 AcDbEntity
   8
@@ -61585,7 +61353,7 @@ lamp
   0
 INSERT
   5
-82A
+824
 100
 AcDbEntity
   8
@@ -61625,7 +61393,7 @@ lamp
   0
 INSERT
   5
-82B
+825
 100
 AcDbEntity
   8
@@ -61665,7 +61433,7 @@ lamp
   0
 INSERT
   5
-82C
+826
 100
 AcDbEntity
   8
@@ -61705,7 +61473,7 @@ lamp
   0
 INSERT
   5
-82D
+827
 100
 AcDbEntity
   8
@@ -61745,7 +61513,7 @@ lamp
   0
 INSERT
   5
-82E
+828
 100
 AcDbEntity
   8
@@ -61785,7 +61553,7 @@ lamp
   0
 INSERT
   5
-82F
+829
 100
 AcDbEntity
   8
@@ -61825,7 +61593,7 @@ lamp
   0
 INSERT
   5
-830
+82A
 100
 AcDbEntity
   8
@@ -61844,6 +61612,246 @@ lamp
 4800
  20
 7700
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+82B
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+4700
+ 20
+7700
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+82C
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+3800
+ 20
+7700
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+82D
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+3000
+ 20
+7700
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+82E
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+2900
+ 20
+7700
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+82F
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+4800
+ 20
+6300
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+830
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+4700
+ 20
+6300
  30
 0
  41
@@ -61881,9 +61889,9 @@ AcDbBlockReference
   2
 lamp
  10
-4700
+3800
  20
-7700
+6300
  30
 0
  41
@@ -61921,9 +61929,9 @@ AcDbBlockReference
   2
 lamp
  10
-3800
+3000
  20
-7700
+6300
  30
 0
  41
@@ -61961,9 +61969,9 @@ AcDbBlockReference
   2
 lamp
  10
-3000
+2900
  20
-7700
+6300
  30
 0
  41
@@ -61983,7 +61991,7 @@ lamp
  45
 1
   0
-INSERT
+MTEXT
   5
 834
 100
@@ -61997,33 +62005,39 @@ ByLayer
 370
    -1
 100
-AcDbBlockReference
-  2
-lamp
+AcDbMText
  10
-2900
+9000
  20
-7700
+5800
  30
 0
+ 40
+100
  41
+22.22222222222222
+ 71
+    4
+ 72
+    1
+  1
 1
- 42
-1
- 43
+  7
+unicode
+210
 0
+220
+0
+230
+1
  50
 0
- 70
-    1
- 71
-    1
+ 73
+    2
  44
 1
- 45
-1
   0
-INSERT
+MTEXT
   5
 835
 100
@@ -62037,33 +62051,39 @@ ByLayer
 370
    -1
 100
-AcDbBlockReference
-  2
-lamp
+AcDbMText
  10
-4800
+9000
  20
-6300
+6900
  30
 0
+ 40
+100
  41
+22.22222222222222
+ 71
+    4
+ 72
+    1
+  1
 1
- 42
-1
- 43
+  7
+unicode
+210
 0
+220
+0
+230
+1
  50
 0
- 70
-    1
- 71
-    1
+ 73
+    2
  44
 1
- 45
-1
   0
-INSERT
+MTEXT
   5
 836
 100
@@ -62077,33 +62097,39 @@ ByLayer
 370
    -1
 100
-AcDbBlockReference
-  2
-lamp
+AcDbMText
  10
-4700
+9000
  20
-6300
+8000
  30
 0
+ 40
+100
  41
+22.22222222222222
+ 71
+    4
+ 72
+    1
+  1
 1
- 42
-1
- 43
+  7
+unicode
+210
 0
+220
+0
+230
+1
  50
 0
- 70
-    1
- 71
-    1
+ 73
+    2
  44
 1
- 45
-1
   0
-INSERT
+MTEXT
   5
 837
 100
@@ -62117,33 +62143,39 @@ ByLayer
 370
    -1
 100
-AcDbBlockReference
-  2
-lamp
+AcDbMText
  10
-3800
+8700
  20
-6300
+9300
  30
 0
+ 40
+100
  41
+22.22222222222222
+ 71
+    4
+ 72
+    1
+  1
 1
- 42
-1
- 43
+  7
+unicode
+210
 0
+220
+0
+230
+1
  50
 0
- 70
-    1
- 71
-    1
+ 73
+    2
  44
 1
- 45
-1
   0
-INSERT
+MTEXT
   5
 838
 100
@@ -62157,13 +62189,3313 @@ ByLayer
 370
    -1
 100
+AcDbMText
+ 10
+7300
+ 20
+9300
+ 30
+0
+ 40
+100
+ 41
+22.22222222222222
+ 71
+    4
+ 72
+    1
+  1
+1
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+839
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+7200
+ 20
+5800
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+2
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+83A
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+6500
+ 20
+5800
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+2
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+83B
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+6500
+ 20
+6500
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+2
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+83C
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+7200
+ 20
+6500
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+2
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+83D
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+7200
+ 20
+7200
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+2
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+83E
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+7200
+ 20
+7900
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+2
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+LINE
+  5
+83F
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7500
+ 20
+10200
+ 11
+8300
+ 21
+10000
+  0
+LINE
+  5
+840
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8300
+ 20
+10000
+ 11
+9100
+ 21
+10200
+  0
+LINE
+  5
+841
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9100
+ 20
+10400
+ 11
+8300
+ 21
+10600
+  0
+LINE
+  5
+842
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8300
+ 20
+10600
+ 11
+7500
+ 21
+10400
+  0
+MTEXT
+  5
+843
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+8300
+ 20
+9900
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+3
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+844
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+8300
+ 20
+10700
+ 30
+0
+ 40
+100
+ 41
+55.55555555555556
+ 71
+    4
+ 72
+    1
+  1
+4
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+LINE
+  5
+845
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7500
+ 20
+11300
+ 11
+8300
+ 21
+11100
+  0
+LINE
+  5
+846
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8300
+ 20
+11100
+ 11
+9100
+ 21
+11300
+  0
+LINE
+  5
+847
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9100
+ 20
+11500
+ 11
+8300
+ 21
+11700
+  0
+LINE
+  5
+848
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8300
+ 20
+11700
+ 11
+7500
+ 21
+11500
+  0
+MTEXT
+  5
+849
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+8300
+ 20
+11000
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+3
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+84A
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+8300
+ 20
+11800
+ 30
+0
+ 40
+100
+ 41
+55.55555555555556
+ 71
+    4
+ 72
+    1
+  1
+4
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+LINE
+  5
+84B
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+7500
+ 20
+12400
+ 11
+8300
+ 21
+12200
+  0
+LINE
+  5
+84C
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8300
+ 20
+12200
+ 11
+9100
+ 21
+12400
+  0
+LINE
+  5
+84D
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9100
+ 20
+12600
+ 11
+8300
+ 21
+12800
+  0
+LINE
+  5
+84E
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8300
+ 20
+12800
+ 11
+7500
+ 21
+12600
+  0
+MTEXT
+  5
+84F
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+8300
+ 20
+12100
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+3
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+850
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+8300
+ 20
+12900
+ 30
+0
+ 40
+100
+ 41
+55.55555555555556
+ 71
+    4
+ 72
+    1
+  1
+4
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+851
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
 AcDbBlockReference
   2
-lamp
+tail
+ 10
+6600
+ 20
+11600
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+270
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+852
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+6900
+ 20
+11600
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+5
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+853
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+6300
+ 20
+10800
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+90
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+854
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+5700
+ 20
+11450
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+6
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+855
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+5700
+ 20
+10300
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+6
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+856
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+5700
+ 20
+9200
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+6
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+857
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+13800
+ 20
+7700
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+7
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+858
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+6000
+ 20
+10800
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+7
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+859
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+15400
+ 20
+11300
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+8
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+85A
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+14200
+ 20
+11300
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+8
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+85B
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+13000
+ 20
+11300
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+8
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+85C
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+13100
+ 20
+10100
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+8
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+85D
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+14300
+ 20
+10100
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+8
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+85E
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+15500
+ 20
+10100
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+8
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+85F
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+13000
+ 20
+8900
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+8
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+860
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+14200
+ 20
+8900
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+8
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+861
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+15400
+ 20
+8900
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+8
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+862
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+4800
+ 20
+7600
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+9
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+863
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+3800
+ 20
+7600
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+9
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+864
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
  10
 3000
  20
-6300
+7600
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+9
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+865
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+3000
+ 20
+6200
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+9
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+866
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+3800
+ 20
+6200
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+9
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+867
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+4800
+ 20
+6200
+ 30
+0
+ 40
+100
+ 41
+44.44444444444444
+ 71
+    4
+ 72
+    1
+  1
+9
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+868
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+5700
+ 20
+12700
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+10
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+869
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+4300
+ 20
+12700
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+10
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+86A
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+14400
+ 20
+7400
+ 30
+0
+ 40
+100
+ 41
+77.77777777777777
+ 71
+    4
+ 72
+    1
+  1
+11
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+86B
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+15600
+ 20
+8000
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+12
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+86C
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+17000
+ 20
+8900
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+13
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+86D
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+17900
+ 20
+8900
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+13
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+86E
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+18700
+ 20
+8900
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+13
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+86F
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+17300
+ 20
+9900
+ 30
+0
+ 40
+100
+ 41
+111.1111111111111
+ 71
+    4
+ 72
+    1
+  1
+14
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+870
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+16200
+ 20
+9900
+ 30
+0
+ 40
+100
+ 41
+111.1111111111111
+ 71
+    4
+ 72
+    1
+  1
+14
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+871
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+16400
+ 20
+11000
+ 30
+0
+ 40
+100
+ 41
+111.1111111111111
+ 71
+    4
+ 72
+    1
+  1
+14
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+872
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+16200
+ 20
+12500
+ 30
+0
+ 40
+100
+ 41
+111.1111111111111
+ 71
+    4
+ 72
+    1
+  1
+14
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+873
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+17300
+ 20
+12500
+ 30
+0
+ 40
+100
+ 41
+111.1111111111111
+ 71
+    4
+ 72
+    1
+  1
+14
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+874
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+18600
+ 20
+12500
+ 30
+0
+ 40
+100
+ 41
+111.1111111111111
+ 71
+    4
+ 72
+    1
+  1
+14
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+875
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+18600
+ 20
+9900
+ 30
+0
+ 40
+100
+ 41
+111.1111111111111
+ 71
+    4
+ 72
+    1
+  1
+14
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+876
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+19000
+ 20
+9900
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+15
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+877
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+17700
+ 20
+9900
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+15
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+878
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+16600
+ 20
+9900
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+15
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+879
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+16400
+ 20
+11400
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+15
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+87A
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+16600
+ 20
+12500
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+15
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+87B
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+17700
+ 20
+12500
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+15
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+87C
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+19000
+ 20
+12500
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+15
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+87D
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+19900
+ 20
+9900
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+16
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+87E
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+19900
+ 20
+12600
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+17
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+87F
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+5700
+ 20
+8500
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+880
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+5700
+ 20
+8800
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+18
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+881
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+16700
+ 20
+13800
+ 30
+0
+ 40
+100
+ 41
+122.2222222222222
+ 71
+    4
+ 72
+    1
+  1
+20
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+882
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+13300
+ 20
+12700
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+21
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+883
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+15000
+ 20
+12700
+ 30
+0
+ 40
+100
+ 41
+100
+ 71
+    4
+ 72
+    1
+  1
+21
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+884
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+6800
+ 20
+12900
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+270
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+885
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+6800
+ 20
+12700
+ 30
+0
+ 40
+100
+ 41
+122.2222222222222
+ 71
+    4
+ 72
+    1
+  1
+22
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+886
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+3400
+ 20
+5300
  30
 0
  41
@@ -62185,11 +65517,11 @@ lamp
   0
 INSERT
   5
-839
+887
 100
 AcDbEntity
   8
-smart_light_line
+smart_socket
   6
 ByLayer
  62
@@ -62199,11 +65531,11 @@ ByLayer
 100
 AcDbBlockReference
   2
-lamp
+socket1
  10
-2900
+6600
  20
-6300
+13200
  30
 0
  41
@@ -62221,6 +65553,368 @@ lamp
  44
 1
  45
+1
+  0
+LINE
+  5
+888
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6700
+ 20
+13200
+ 11
+6900
+ 21
+13600
+  0
+LINE
+  5
+889
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+6900
+ 20
+13600
+ 11
+7500
+ 21
+13600
+  0
+MTEXT
+  5
+88A
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+7000
+ 20
+13500
+ 30
+0
+ 40
+100
+ 41
+411.1111111111111
+ 71
+    4
+ 72
+    1
+  1
+Шторы
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+88B
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+socket1
+ 10
+3400
+ 20
+12100
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+LINE
+  5
+88C
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3500
+ 20
+12100
+ 11
+3800
+ 21
+12500
+  0
+LINE
+  5
+88D
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+3800
+ 20
+12500
+ 11
+4500
+ 21
+12500
+  0
+MTEXT
+  5
+88E
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+3800
+ 20
+12400
+ 30
+0
+ 40
+100
+ 41
+411.1111111111111
+ 71
+    4
+ 72
+    1
+  1
+Шторы
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+88F
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+socket1
+ 10
+2600
+ 20
+5300
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+90
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+LINE
+  5
+890
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2600
+ 20
+5300
+ 11
+2800
+ 21
+4500
+  0
+LINE
+  5
+891
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2800
+ 20
+4500
+ 11
+3600
+ 21
+4500
+  0
+MTEXT
+  5
+892
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+2900
+ 20
+4400
+ 30
+0
+ 40
+100
+ 41
+411.1111111111111
+ 71
+    4
+ 72
+    1
+  1
+Шторы
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
 1
   0
 ENDSEC
@@ -62255,7 +65949,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-83A
+893
 100
 AcDbPlotSettings
   6
