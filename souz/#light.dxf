@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-smart_data
+smart_socket
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-7991.56022820031
+10454.45484237683
  22
-3721.363054337833
+5629.974059479495
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-5764.989288014964
+10954.70856151733
  41
 1.856037151702786
  42
@@ -64079,6 +64079,70 @@ unicode
  44
 1
   0
+INSERT
+  5
+675
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+8863.598616482624
+ 20
+2743.016896958463
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+LINE
+  5
+676
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8864.064675572827
+ 20
+2743.016896958463
+ 11
+9614.31324031881
+ 21
+1688.789824364393
+  0
 ENDSEC
   0
 SECTION
@@ -64111,7 +64175,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-675
+677
 100
 AcDbPlotSettings
   6
