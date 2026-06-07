@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
-0
+10000000000
  20
-0
+10000000000
  30
 0
   9
 $EXTMAX
  10
-21000
+-10000000000
  20
-14850
+-10000000000
  30
 0
   9
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-smart_data
+smart_socket
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-11310.25624569157
+9326.438868824975
  22
-7905.017806128519
+5032.777289337923
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-14930.66085039185
+4168.299197604217
  41
-1.868421052631579
+1.901002506265664
  42
 50
  43
@@ -2411,7 +2411,7 @@ AcDbLayerTableRecord
   2
 smart_data
  70
-    0
+    1
  62
     7
   6
@@ -2499,7 +2499,7 @@ AcDbLayerTableRecord
   2
 smart_socket
  70
-    1
+    0
  62
     7
   6
@@ -2533,7 +2533,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-unicode
+GOST-2_304_TYPE-B
  70
     0
  40
@@ -2547,7 +2547,7 @@ unicode
  42
 1
   3
-unicode
+GOST-2_304_TYPE-B
   4
 
   0
@@ -2561,7 +2561,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-GOST-2_304_TYPE-B
+unicode
  70
     0
  40
@@ -2575,7 +2575,7 @@ GOST-2_304_TYPE-B
  42
 1
   3
-GOST-2_304_TYPE-B
+unicode
   4
 
   0
@@ -57013,86 +57013,6 @@ AcDbEntity
   8
 smart_socket
   6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-socket1
- 10
-16017.6041946973
- 20
-12980.32536072993
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-0
- 45
-0
-  0
-INSERT
-  5
-7B7
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-socket1
- 10
-12609.49691147691
- 20
-8498.94435900202
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-90
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-7B8
-100
-AcDbEntity
-  8
-smart_socket
-  6
 ByBlock
  62
   256
@@ -57127,7 +57047,7 @@ socket1
   0
 INSERT
   5
-7B9
+7B7
 100
 AcDbEntity
   8
@@ -57167,7 +57087,7 @@ data
   0
 INSERT
   5
-7BA
+7B8
 100
 AcDbEntity
   8
@@ -57207,7 +57127,7 @@ socket1
   0
 INSERT
   5
-7BB
+7B9
 100
 AcDbEntity
   8
@@ -57247,7 +57167,7 @@ data
   0
 INSERT
   5
-7BC
+7BA
 100
 AcDbEntity
   8
@@ -57287,7 +57207,7 @@ socket3
   0
 INSERT
   5
-7BD
+7BB
 100
 AcDbEntity
   8
@@ -57327,7 +57247,7 @@ socket-rj45
   0
 INSERT
   5
-7BE
+7BC
 100
 AcDbEntity
   8
@@ -57367,7 +57287,7 @@ data
   0
 INSERT
   5
-7BF
+7BD
 100
 AcDbEntity
   8
@@ -57407,7 +57327,7 @@ socket1
   0
 LINE
   5
-7C0
+7BE
 100
 AcDbEntity
   8
@@ -57431,7 +57351,7 @@ AcDbLine
   0
 LINE
   5
-7C1
+7BF
 100
 AcDbEntity
   8
@@ -57455,7 +57375,7 @@ AcDbLine
   0
 LINE
   5
-7C2
+7C0
 100
 AcDbEntity
   8
@@ -57479,7 +57399,7 @@ AcDbLine
   0
 LINE
   5
-7C3
+7C1
 100
 AcDbEntity
   8
@@ -57503,7 +57423,7 @@ AcDbLine
   0
 INSERT
   5
-7C4
+7C2
 100
 AcDbEntity
   8
@@ -57543,7 +57463,7 @@ socket1
   0
 INSERT
   5
-7C5
+7C3
 100
 AcDbEntity
   8
@@ -57583,7 +57503,7 @@ socket3
   0
 INSERT
   5
-7C6
+7C4
 100
 AcDbEntity
   8
@@ -57623,7 +57543,7 @@ socket1
   0
 INSERT
   5
-7C7
+7C5
 100
 AcDbEntity
   8
@@ -57663,7 +57583,7 @@ socket2
   0
 INSERT
   5
-7C8
+7C6
 100
 AcDbEntity
   8
@@ -57703,7 +57623,7 @@ socket1
   0
 INSERT
   5
-7C9
+7C7
 100
 AcDbEntity
   8
@@ -57743,7 +57663,7 @@ socket-rj45
   0
 INSERT
   5
-7CA
+7C8
 100
 AcDbEntity
   8
@@ -57783,7 +57703,7 @@ socket1
   0
 INSERT
   5
-7CB
+7C9
 100
 AcDbEntity
   8
@@ -57823,7 +57743,7 @@ socket2
   0
 INSERT
   5
-7CC
+7CA
 100
 AcDbEntity
   8
@@ -57863,7 +57783,7 @@ socket1
   0
 INSERT
   5
-7CD
+7CB
 100
 AcDbEntity
   8
@@ -57903,7 +57823,7 @@ socket1
   0
 INSERT
   5
-7CE
+7CC
 100
 AcDbEntity
   8
@@ -57943,7 +57863,7 @@ socket-rj45
   0
 INSERT
   5
-7CF
+7CD
 100
 AcDbEntity
   8
@@ -57983,7 +57903,7 @@ data
   0
 INSERT
   5
-7D0
+7CE
 100
 AcDbEntity
   8
@@ -58023,7 +57943,7 @@ socket1
   0
 INSERT
   5
-7D1
+7CF
 100
 AcDbEntity
   8
@@ -58063,7 +57983,7 @@ socket1
   0
 INSERT
   5
-7D2
+7D0
 100
 AcDbEntity
   8
@@ -58103,7 +58023,7 @@ socket1
   0
 INSERT
   5
-7D3
+7D1
 100
 AcDbEntity
   8
@@ -58143,7 +58063,7 @@ socket2
   0
 INSERT
   5
-7D4
+7D2
 100
 AcDbEntity
   8
@@ -58183,7 +58103,7 @@ socket-rj45
   0
 INSERT
   5
-7D5
+7D3
 100
 AcDbEntity
   8
@@ -58223,7 +58143,7 @@ data
   0
 INSERT
   5
-7D6
+7D4
 100
 AcDbEntity
   8
@@ -58263,7 +58183,7 @@ socket1
   0
 INSERT
   5
-7D7
+7D5
 100
 AcDbEntity
   8
@@ -58280,6 +58200,86 @@ AcDbBlockReference
 lamp
  10
 16400
+ 20
+12400
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+7D6
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+16500
+ 20
+12400
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+7D7
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+18900
  20
 12400
  30
@@ -58319,7 +58319,7 @@ AcDbBlockReference
   2
 lamp
  10
-16500
+18800
  20
 12400
  30
@@ -58359,7 +58359,7 @@ AcDbBlockReference
   2
 lamp
  10
-18900
+17600
  20
 12400
  30
@@ -58399,7 +58399,7 @@ AcDbBlockReference
   2
 lamp
  10
-18800
+17500
  20
 12400
  30
@@ -58439,86 +58439,6 @@ AcDbBlockReference
   2
 lamp
  10
-17600
- 20
-12400
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-7DC
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-17500
- 20
-12400
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-7DD
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
 16400
  20
 11200
@@ -58543,7 +58463,7 @@ lamp
   0
 INSERT
   5
-7DE
+7DC
 100
 AcDbEntity
   8
@@ -58583,7 +58503,7 @@ lamp
   0
 INSERT
   5
-7DF
+7DD
 100
 AcDbEntity
   8
@@ -58623,7 +58543,7 @@ lamp
   0
 INSERT
   5
-7E0
+7DE
 100
 AcDbEntity
   8
@@ -58663,7 +58583,7 @@ lamp
   0
 INSERT
   5
-7E1
+7DF
 100
 AcDbEntity
   8
@@ -58703,7 +58623,7 @@ lamp
   0
 INSERT
   5
-7E2
+7E0
 100
 AcDbEntity
   8
@@ -58743,7 +58663,7 @@ lamp
   0
 INSERT
   5
-7E3
+7E1
 100
 AcDbEntity
   8
@@ -58783,7 +58703,7 @@ lamp
   0
 INSERT
   5
-7E4
+7E2
 100
 AcDbEntity
   8
@@ -58823,7 +58743,7 @@ lamp
   0
 INSERT
   5
-7E5
+7E3
 100
 AcDbEntity
   8
@@ -58863,7 +58783,7 @@ lamp
   0
 INSERT
   5
-7E6
+7E4
 100
 AcDbEntity
   8
@@ -58903,7 +58823,7 @@ lamp
   0
 INSERT
   5
-7E7
+7E5
 100
 AcDbEntity
   8
@@ -58943,7 +58863,7 @@ lamp
   0
 INSERT
   5
-7E8
+7E6
 100
 AcDbEntity
   8
@@ -58983,7 +58903,7 @@ lamp
   0
 INSERT
   5
-7E9
+7E7
 100
 AcDbEntity
   8
@@ -59023,7 +58943,7 @@ lamp
   0
 INSERT
   5
-7EA
+7E8
 100
 AcDbEntity
   8
@@ -59063,7 +58983,7 @@ lamp
   0
 INSERT
   5
-7EB
+7E9
 100
 AcDbEntity
   8
@@ -59103,7 +59023,7 @@ lamp
   0
 INSERT
   5
-7EC
+7EA
 100
 AcDbEntity
   8
@@ -59143,7 +59063,7 @@ lamp
   0
 INSERT
   5
-7ED
+7EB
 100
 AcDbEntity
   8
@@ -59183,7 +59103,7 @@ lamp
   0
 INSERT
   5
-7EE
+7EC
 100
 AcDbEntity
   8
@@ -59200,6 +59120,86 @@ AcDbBlockReference
 lamp
  10
 15400
+ 20
+11400
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+7ED
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+13000
+ 20
+11500
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+7EE
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+13000
  20
 11400
  30
@@ -59241,7 +59241,7 @@ lamp
  10
 13000
  20
-11500
+10100
  30
 0
  41
@@ -59281,7 +59281,7 @@ lamp
  10
 13000
  20
-11400
+10000
  30
 0
  41
@@ -59321,7 +59321,7 @@ lamp
  10
 13000
  20
-10100
+9100
  30
 0
  41
@@ -59361,7 +59361,7 @@ lamp
  10
 13000
  20
-10000
+9000
  30
 0
  41
@@ -59399,7 +59399,7 @@ AcDbBlockReference
   2
 lamp
  10
-13000
+14200
  20
 9100
  30
@@ -59439,7 +59439,7 @@ AcDbBlockReference
   2
 lamp
  10
-13000
+14200
  20
 9000
  30
@@ -59479,9 +59479,9 @@ AcDbBlockReference
   2
 lamp
  10
-14200
+15400
  20
-9100
+9000
  30
 0
  41
@@ -59519,9 +59519,9 @@ AcDbBlockReference
   2
 lamp
  10
-14200
+15400
  20
-9000
+9100
  30
 0
  41
@@ -59561,7 +59561,7 @@ lamp
  10
 15400
  20
-9000
+10000
  30
 0
  41
@@ -59599,9 +59599,9 @@ AcDbBlockReference
   2
 lamp
  10
-15400
+14200
  20
-9100
+10000
  30
 0
  41
@@ -59639,9 +59639,9 @@ AcDbBlockReference
   2
 lamp
  10
-15400
+14200
  20
-10000
+10100
  30
 0
  41
@@ -59679,9 +59679,9 @@ AcDbBlockReference
   2
 lamp
  10
-14200
+15400
  20
-10000
+10100
  30
 0
  41
@@ -59721,7 +59721,7 @@ lamp
  10
 14200
  20
-10100
+11400
  30
 0
  41
@@ -59759,9 +59759,9 @@ AcDbBlockReference
   2
 lamp
  10
-15400
+14200
  20
-10100
+11500
  30
 0
  41
@@ -59799,9 +59799,9 @@ AcDbBlockReference
   2
 lamp
  10
-14200
+8800
  20
-11400
+5700
  30
 0
  41
@@ -59839,9 +59839,9 @@ AcDbBlockReference
   2
 lamp
  10
-14200
+8800
  20
-11500
+5800
  30
 0
  41
@@ -59881,7 +59881,7 @@ lamp
  10
 8800
  20
-5700
+6800
  30
 0
  41
@@ -59921,7 +59921,7 @@ lamp
  10
 8800
  20
-5800
+6900
  30
 0
  41
@@ -59961,7 +59961,7 @@ lamp
  10
 8800
  20
-6800
+7900
  30
 0
  41
@@ -60001,7 +60001,7 @@ lamp
  10
 8800
  20
-6900
+8000
  30
 0
  41
@@ -60041,86 +60041,6 @@ lamp
  10
 8800
  20
-7900
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-804
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-8800
- 20
-8000
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-805
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-8800
- 20
 9100
  30
 0
@@ -60143,7 +60063,7 @@ lamp
   0
 INSERT
   5
-806
+804
 100
 AcDbEntity
   8
@@ -60183,7 +60103,7 @@ lamp
   0
 INSERT
   5
-807
+805
 100
 AcDbEntity
   8
@@ -60223,7 +60143,7 @@ lamp
   0
 INSERT
   5
-808
+806
 100
 AcDbEntity
   8
@@ -60263,7 +60183,7 @@ lamp
   0
 INSERT
   5
-809
+807
 100
 AcDbEntity
   8
@@ -60282,6 +60202,86 @@ lamp
 7200
  20
 7700
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+808
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+7200
+ 20
+7000
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+809
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+7200
+ 20
+6300
  30
 0
  41
@@ -60321,7 +60321,7 @@ lamp
  10
 7200
  20
-7000
+5600
  30
 0
  41
@@ -60359,9 +60359,9 @@ AcDbBlockReference
   2
 lamp
  10
-7200
+6500
  20
-6300
+5600
  30
 0
  41
@@ -60399,9 +60399,9 @@ AcDbBlockReference
   2
 lamp
  10
-7200
+6500
  20
-5600
+6300
  30
 0
  41
@@ -60439,9 +60439,9 @@ AcDbBlockReference
   2
 lamp
  10
-6500
+9100
  20
-5600
+10200
  30
 0
  41
@@ -60479,9 +60479,9 @@ AcDbBlockReference
   2
 lamp
  10
-6500
+9100
  20
-6300
+10300
  30
 0
  41
@@ -60521,7 +60521,7 @@ lamp
  10
 9100
  20
-10200
+11300
  30
 0
  41
@@ -60561,7 +60561,7 @@ lamp
  10
 9100
  20
-10300
+11400
  30
 0
  41
@@ -60601,7 +60601,7 @@ lamp
  10
 9100
  20
-11300
+12500
  30
 0
  41
@@ -60641,7 +60641,7 @@ lamp
  10
 9100
  20
-11400
+12400
  30
 0
  41
@@ -60679,9 +60679,9 @@ AcDbBlockReference
   2
 lamp
  10
-9100
+7500
  20
-12500
+12400
  30
 0
  41
@@ -60719,9 +60719,9 @@ AcDbBlockReference
   2
 lamp
  10
-9100
+7500
  20
-12400
+12500
  30
 0
  41
@@ -60761,7 +60761,7 @@ lamp
  10
 7500
  20
-12400
+11400
  30
 0
  41
@@ -60801,7 +60801,7 @@ lamp
  10
 7500
  20
-12500
+11300
  30
 0
  41
@@ -60841,7 +60841,7 @@ lamp
  10
 7500
  20
-11400
+10300
  30
 0
  41
@@ -60881,86 +60881,6 @@ lamp
  10
 7500
  20
-11300
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-819
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-7500
- 20
-10300
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-81A
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-7500
- 20
 10200
  30
 0
@@ -60983,7 +60903,7 @@ lamp
   0
 INSERT
   5
-81B
+819
 100
 AcDbEntity
   8
@@ -61023,7 +60943,7 @@ lamp
   0
 INSERT
   5
-81C
+81A
 100
 AcDbEntity
   8
@@ -61063,7 +60983,7 @@ lamp
   0
 INSERT
   5
-81D
+81B
 100
 AcDbEntity
   8
@@ -61103,7 +61023,7 @@ lamp
   0
 INSERT
   5
-81E
+81C
 100
 AcDbEntity
   8
@@ -61143,7 +61063,7 @@ lamp
   0
 INSERT
   5
-81F
+81D
 100
 AcDbEntity
   8
@@ -61183,7 +61103,7 @@ lamp
   0
 INSERT
   5
-820
+81E
 100
 AcDbEntity
   8
@@ -61223,7 +61143,7 @@ lamp
   0
 INSERT
   5
-821
+81F
 100
 AcDbEntity
   8
@@ -61263,7 +61183,7 @@ lamp
   0
 INSERT
   5
-822
+820
 100
 AcDbEntity
   8
@@ -61303,7 +61223,7 @@ lamp
   0
 INSERT
   5
-823
+821
 100
 AcDbEntity
   8
@@ -61343,7 +61263,7 @@ lamp
   0
 INSERT
   5
-824
+822
 100
 AcDbEntity
   8
@@ -61383,7 +61303,7 @@ lamp
   0
 INSERT
   5
-825
+823
 100
 AcDbEntity
   8
@@ -61400,6 +61320,86 @@ AcDbBlockReference
 lamp
  10
 4800
+ 20
+7700
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+824
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+4700
+ 20
+7700
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+825
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+lamp
+ 10
+3800
  20
 7700
  30
@@ -61439,7 +61439,7 @@ AcDbBlockReference
   2
 lamp
  10
-4700
+3000
  20
 7700
  30
@@ -61479,7 +61479,7 @@ AcDbBlockReference
   2
 lamp
  10
-3800
+2900
  20
 7700
  30
@@ -61519,86 +61519,6 @@ AcDbBlockReference
   2
 lamp
  10
-3000
- 20
-7700
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-829
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
-2900
- 20
-7700
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-82A
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-lamp
- 10
 4800
  20
 6300
@@ -61623,7 +61543,7 @@ lamp
   0
 INSERT
   5
-82B
+829
 100
 AcDbEntity
   8
@@ -61663,7 +61583,7 @@ lamp
   0
 INSERT
   5
-82C
+82A
 100
 AcDbEntity
   8
@@ -61703,7 +61623,7 @@ lamp
   0
 INSERT
   5
-82D
+82B
 100
 AcDbEntity
   8
@@ -61743,7 +61663,7 @@ lamp
   0
 INSERT
   5
-82E
+82C
 100
 AcDbEntity
   8
@@ -61783,7 +61703,7 @@ lamp
   0
 LINE
   5
-82F
+82D
 100
 AcDbEntity
   8
@@ -61804,6 +61724,54 @@ AcDbLine
 8300
  21
 10000
+  0
+LINE
+  5
+82E
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+8300
+ 20
+10000
+ 11
+9100
+ 21
+10200
+  0
+LINE
+  5
+82F
+100
+AcDbEntity
+  8
+smart_light_line
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+9100
+ 20
+10400
+ 11
+8300
+ 21
+10600
   0
 LINE
   5
@@ -61823,11 +61791,11 @@ AcDbLine
  10
 8300
  20
-10000
+10600
  11
-9100
+7500
  21
-10200
+10400
   0
 LINE
   5
@@ -61845,13 +61813,13 @@ ByLayer
 100
 AcDbLine
  10
-9100
+7500
  20
-10400
+11300
  11
 8300
  21
-10600
+11100
   0
 LINE
   5
@@ -61871,11 +61839,11 @@ AcDbLine
  10
 8300
  20
-10600
+11100
  11
-7500
+9100
  21
-10400
+11300
   0
 LINE
   5
@@ -61893,13 +61861,13 @@ ByLayer
 100
 AcDbLine
  10
-7500
+9100
  20
-11300
+11500
  11
 8300
  21
-11100
+11700
   0
 LINE
   5
@@ -61919,11 +61887,11 @@ AcDbLine
  10
 8300
  20
-11100
+11700
  11
-9100
+7500
  21
-11300
+11500
   0
 LINE
   5
@@ -61941,13 +61909,13 @@ ByLayer
 100
 AcDbLine
  10
-9100
+7500
  20
-11500
+12400
  11
 8300
  21
-11700
+12200
   0
 LINE
   5
@@ -61967,54 +61935,6 @@ AcDbLine
  10
 8300
  20
-11700
- 11
-7500
- 21
-11500
-  0
-LINE
-  5
-837
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-7500
- 20
-12400
- 11
-8300
- 21
-12200
-  0
-LINE
-  5
-838
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-8300
- 20
 12200
  11
 9100
@@ -62023,7 +61943,7 @@ AcDbLine
   0
 LINE
   5
-839
+837
 100
 AcDbEntity
   8
@@ -62047,7 +61967,7 @@ AcDbLine
   0
 LINE
   5
-83A
+838
 100
 AcDbEntity
   8
@@ -62071,7 +61991,7 @@ AcDbLine
   0
 INSERT
   5
-83B
+839
 100
 AcDbEntity
   8
@@ -62111,7 +62031,7 @@ tail
   0
 INSERT
   5
-83C
+83A
 100
 AcDbEntity
   8
@@ -62151,7 +62071,7 @@ tail
   0
 INSERT
   5
-83D
+83B
 100
 AcDbEntity
   8
@@ -62191,7 +62111,7 @@ tail
   0
 INSERT
   5
-83E
+83C
 100
 AcDbEntity
   8
@@ -62231,7 +62151,7 @@ tail
   0
 INSERT
   5
-83F
+83D
 100
 AcDbEntity
   8
@@ -62271,7 +62191,7 @@ tail
   0
 INSERT
   5
-840
+83E
 100
 AcDbEntity
   8
@@ -62311,47 +62231,7 @@ socket1
   0
 INSERT
   5
-841
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-socket1
- 10
-3400
- 20
-12100
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-842
+83F
 100
 AcDbEntity
   8
@@ -62391,7 +62271,7 @@ socket1
   0
 INSERT
   5
-843
+840
 100
 AcDbEntity
   8
@@ -62431,7 +62311,7 @@ socket2
   0
 INSERT
   5
-844
+841
 100
 AcDbEntity
   8
@@ -62471,7 +62351,7 @@ socket1
   0
 INSERT
   5
-845
+842
 100
 AcDbEntity
   8
@@ -62511,7 +62391,7 @@ socket1
   0
 INSERT
   5
-846
+843
 100
 AcDbEntity
   8
@@ -62551,7 +62431,7 @@ socket1-ip
   0
 INSERT
   5
-847
+844
 100
 AcDbEntity
   8
@@ -62591,7 +62471,7 @@ socket1-ip-0
   0
 INSERT
   5
-848
+845
 100
 AcDbEntity
   8
@@ -62631,7 +62511,7 @@ socket1
   0
 INSERT
   5
-849
+846
 100
 AcDbEntity
   8
@@ -62671,7 +62551,7 @@ socket2
   0
 INSERT
   5
-84A
+847
 100
 AcDbEntity
   8
@@ -62711,7 +62591,7 @@ socket3
   0
 INSERT
   5
-84B
+848
 100
 AcDbEntity
   8
@@ -62751,7 +62631,7 @@ socket1
   0
 INSERT
   5
-84C
+849
 100
 AcDbEntity
   8
@@ -62791,7 +62671,7 @@ socket2
   0
 INSERT
   5
-84D
+84A
 100
 AcDbEntity
   8
@@ -62831,7 +62711,7 @@ socket2
   0
 INSERT
   5
-84E
+84B
 100
 AcDbEntity
   8
@@ -62871,7 +62751,7 @@ tail
   0
 INSERT
   5
-84F
+84C
 100
 AcDbEntity
   8
@@ -62911,7 +62791,7 @@ socket1
   0
 INSERT
   5
-850
+84D
 100
 AcDbEntity
   8
@@ -62951,7 +62831,7 @@ socket1
   0
 INSERT
   5
-851
+84E
 100
 AcDbEntity
   8
@@ -62991,7 +62871,7 @@ socket1
   0
 INSERT
   5
-852
+84F
 100
 AcDbEntity
   8
@@ -63031,7 +62911,7 @@ socket1
   0
 INSERT
   5
-853
+850
 100
 AcDbEntity
   8
@@ -63069,55 +62949,9 @@ socket1
  45
 1
   0
-MTEXT
-  5
-854
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-16100
- 20
-13200
- 30
-0
- 40
-100
- 41
-44.44444444444444
- 71
-    4
- 72
-    1
-  1
-7
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
 INSERT
   5
-855
+851
 100
 AcDbEntity
   8
@@ -63157,7 +62991,7 @@ tail
   0
 INSERT
   5
-856
+852
 100
 AcDbEntity
   8
@@ -63197,7 +63031,7 @@ tail
   0
 INSERT
   5
-857
+853
 100
 AcDbEntity
   8
@@ -63235,209 +63069,9 @@ tail
  45
 1
   0
-INSERT
-  5
-858
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-socket-rj45
- 10
-16200
- 20
-13200
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-270
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-859
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-socket-rj45
- 10
-11800
- 20
-5500
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-85A
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-socket-rj45
- 10
-6800
- 20
-13000
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-270
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-85B
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-socket-rj45
- 10
-12300
- 20
-8800
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-85C
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-socket-rj45
- 10
-3336.121852440011
- 20
-12094.99195759153
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-270
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
 MTEXT
   5
-85D
+854
 100
 AcDbEntity
   8
@@ -63483,7 +63117,7 @@ unicode
   0
 MTEXT
   5
-85E
+855
 100
 AcDbEntity
   8
@@ -63529,7 +63163,7 @@ unicode
   0
 INSERT
   5
-85F
+856
 100
 AcDbEntity
   8
@@ -63569,7 +63203,7 @@ socket-rj45
   0
 MTEXT
   5
-860
+857
 100
 AcDbEntity
   8
@@ -63615,53 +63249,7 @@ unicode
   0
 MTEXT
   5
-861
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-7100
- 20
-12900
- 30
-0
- 40
-100
- 41
-397.2222222222222
- 71
-    4
- 72
-    1
-  1
-LAN 4
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-862
+858
 100
 AcDbEntity
   8
@@ -63707,7 +63295,7 @@ unicode
   0
 INSERT
   5
-863
+859
 100
 AcDbEntity
   8
@@ -63747,7 +63335,7 @@ socket-rj45
   0
 MTEXT
   5
-864
+85A
 100
 AcDbEntity
   8
@@ -63793,191 +63381,7 @@ unicode
   0
 MTEXT
   5
-865
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-3500
- 20
-12100
- 30
-0
- 40
-100
- 41
-386.1111111111111
- 71
-    4
- 72
-    1
-  1
-LAN 7
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-866
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-11800
- 20
-5700
- 30
-0
- 40
-100
- 41
-386.1111111111111
- 71
-    4
- 72
-    1
-  1
-LAN 8
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-867
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-12000
- 20
-9000
- 30
-0
- 40
-100
- 41
-386.1111111111112
- 71
-    4
- 72
-    1
-  1
-LAN 9
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-868
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-16500
- 20
-13200
- 30
-0
- 40
-100
- 41
-441.6666666666667
- 71
-    4
- 72
-    1
-  1
-LAN 10
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-869
+85B
 100
 AcDbEntity
   8
@@ -64023,219 +63427,7 @@ unicode
   0
 INSERT
   5
-86A
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-tail
- 10
-11800
- 20
-5400
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-86B
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-socket-rj45
- 10
-2400
- 20
-5400
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-MTEXT
-  5
-86C
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-2400
- 20
-5600
- 30
-0
- 40
-100
- 41
-441.6666666666667
- 71
-    4
- 72
-    1
-  1
-LAN 12
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-INSERT
-  5
-86D
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-socket-rj45
- 10
-13000
- 20
-12000
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-270
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-MTEXT
-  5
-86E
-100
-AcDbEntity
-  8
-smart_lan
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-13200
- 20
-12200
- 30
-0
- 40
-100
- 41
-441.6666666666669
- 71
-    4
- 72
-    1
-  1
-LAN 13
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-INSERT
-  5
-86F
+85C
 100
 AcDbEntity
   8
@@ -64275,7 +63467,7 @@ tail
   0
 INSERT
   5
-870
+85D
 100
 AcDbEntity
   8
@@ -64315,7 +63507,7 @@ tail
   0
 INSERT
   5
-871
+85E
 100
 AcDbEntity
   8
@@ -64355,7 +63547,7 @@ tail
   0
 INSERT
   5
-872
+85F
 100
 AcDbEntity
   8
@@ -64395,7 +63587,7 @@ tail
   0
 MTEXT
   5
-873
+860
 100
 AcDbEntity
   8
@@ -64441,7 +63633,7 @@ unicode
   0
 MTEXT
   5
-874
+861
 100
 AcDbEntity
   8
@@ -64487,7 +63679,7 @@ unicode
   0
 MTEXT
   5
-875
+862
 100
 AcDbEntity
   8
@@ -64533,7 +63725,7 @@ unicode
   0
 MTEXT
   5
-876
+863
 100
 AcDbEntity
   8
@@ -64579,7 +63771,7 @@ unicode
   0
 MTEXT
   5
-877
+864
 100
 AcDbEntity
   8
@@ -64625,7 +63817,7 @@ unicode
   0
 MTEXT
   5
-878
+865
 100
 AcDbEntity
   8
@@ -64671,7 +63863,7 @@ unicode
   0
 MTEXT
   5
-879
+866
 100
 AcDbEntity
   8
@@ -64717,7 +63909,7 @@ unicode
   0
 MTEXT
   5
-87A
+867
 100
 AcDbEntity
   8
@@ -64763,7 +63955,7 @@ unicode
   0
 MTEXT
   5
-87B
+868
 100
 AcDbEntity
   8
@@ -64809,7 +64001,7 @@ unicode
   0
 MTEXT
   5
-87C
+869
 100
 AcDbEntity
   8
@@ -64855,7 +64047,7 @@ unicode
   0
 MTEXT
   5
-87D
+86A
 100
 AcDbEntity
   8
@@ -64901,7 +64093,7 @@ unicode
   0
 MTEXT
   5
-87E
+86B
 100
 AcDbEntity
   8
@@ -64947,7 +64139,7 @@ unicode
   0
 MTEXT
   5
-87F
+86C
 100
 AcDbEntity
   8
@@ -64993,7 +64185,7 @@ unicode
   0
 INSERT
   5
-880
+86D
 100
 AcDbEntity
   8
@@ -65033,7 +64225,7 @@ data
   0
 INSERT
   5
-881
+86E
 100
 AcDbEntity
   8
@@ -65073,7 +64265,7 @@ data
   0
 MTEXT
   5
-882
+86F
 100
 AcDbEntity
   8
@@ -65117,95 +64309,9 @@ unicode
  44
 1
   0
-INSERT
-  5
-883
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-data
- 10
-9500
- 20
-5400
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
 MTEXT
   5
-884
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-9700
- 20
-5500
- 30
-0
- 40
-100
- 41
-275
- 71
-    4
- 72
-    1
-  1
-R 1.1
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-885
+870
 100
 AcDbEntity
   8
@@ -65251,7 +64357,7 @@ unicode
   0
 MTEXT
   5
-886
+871
 100
 AcDbEntity
   8
@@ -65297,7 +64403,7 @@ unicode
   0
 INSERT
   5
-887
+872
 100
 AcDbEntity
   8
@@ -65337,7 +64443,7 @@ data
   0
 MTEXT
   5
-888
+873
 100
 AcDbEntity
   8
@@ -65383,7 +64489,7 @@ unicode
   0
 MTEXT
   5
-889
+874
 100
 AcDbEntity
   8
@@ -65429,47 +64535,7 @@ unicode
   0
 INSERT
   5
-88A
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-data
- 10
-7800
- 20
-8800
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-INSERT
-  5
-88B
+875
 100
 AcDbEntity
   8
@@ -65507,251 +64573,9 @@ data
  45
 1
   0
-INSERT
-  5
-88C
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-data
- 10
-5700
- 20
-12400
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-90
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
 MTEXT
   5
-88D
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-5100
- 20
-12400
- 30
-0
- 40
-100
- 41
-297.2222222222223
- 71
-    4
- 72
-    1
-  1
-R 1.9
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-INSERT
-  5
-88E
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-data
- 10
-3870
- 20
-7710
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-MTEXT
-  5
-88F
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-3700
- 20
-7600
- 30
-0
- 40
-100
- 41
-297.2222222222222
- 71
-    4
- 72
-    1
-  1
-R 1.8
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-890
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-8000
- 20
-8900
- 30
-0
- 40
-100
- 41
-308.3333333333333
- 71
-    4
- 72
-    1
-  1
-R 1.4
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-LINE
-  5
-891
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-6900
- 20
-7000
- 11
-7300
- 21
-7000
-  0
-MTEXT
-  5
-892
+876
 100
 AcDbEntity
   8
@@ -65797,7 +64621,7 @@ unicode
   0
 MTEXT
   5
-893
+877
 100
 AcDbEntity
   8
@@ -65843,53 +64667,7 @@ unicode
   0
 MTEXT
   5
-894
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-6900
- 20
-13200
- 30
-0
- 40
-100
- 41
-208.4134290444941
- 71
-    4
- 72
-    1
-  1
-S 7
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-895
+878
 100
 AcDbEntity
   8
@@ -65935,7 +64713,7 @@ unicode
   0
 MTEXT
   5
-896
+879
 100
 AcDbEntity
   8
@@ -65981,7 +64759,7 @@ unicode
   0
 MTEXT
   5
-897
+87A
 100
 AcDbEntity
   8
@@ -66027,7 +64805,7 @@ unicode
   0
 MTEXT
   5
-898
+87B
 100
 AcDbEntity
   8
@@ -66073,7 +64851,7 @@ unicode
   0
 MTEXT
   5
-899
+87C
 100
 AcDbEntity
   8
@@ -66119,7 +64897,7 @@ unicode
   0
 MTEXT
   5
-89A
+87D
 100
 AcDbEntity
   8
@@ -66165,7 +64943,7 @@ unicode
   0
 MTEXT
   5
-89B
+87E
 100
 AcDbEntity
   8
@@ -66211,7 +64989,7 @@ unicode
   0
 MTEXT
   5
-89C
+87F
 100
 AcDbEntity
   8
@@ -66257,7 +65035,7 @@ unicode
   0
 MTEXT
   5
-89D
+880
 100
 AcDbEntity
   8
@@ -66303,7 +65081,7 @@ unicode
   0
 MTEXT
   5
-89E
+881
 100
 AcDbEntity
   8
@@ -66349,7 +65127,7 @@ unicode
   0
 MTEXT
   5
-89F
+882
 100
 AcDbEntity
   8
@@ -66395,7 +65173,7 @@ unicode
   0
 MTEXT
   5
-8A0
+883
 100
 AcDbEntity
   8
@@ -66441,7 +65219,7 @@ unicode
   0
 MTEXT
   5
-8A1
+884
 100
 AcDbEntity
   8
@@ -66487,7 +65265,7 @@ unicode
   0
 MTEXT
   5
-8A2
+885
 100
 AcDbEntity
   8
@@ -66533,7 +65311,7 @@ unicode
   0
 MTEXT
   5
-8A3
+886
 100
 AcDbEntity
   8
@@ -66579,7 +65357,7 @@ unicode
   0
 MTEXT
   5
-8A4
+887
 100
 AcDbEntity
   8
@@ -66625,7 +65403,7 @@ unicode
   0
 MTEXT
   5
-8A5
+888
 100
 AcDbEntity
   8
@@ -66671,53 +65449,7 @@ unicode
   0
 MTEXT
   5
-8A6
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-3700
- 20
-12100
- 30
-0
- 40
-100
- 41
-208.4134290444941
- 71
-    4
- 72
-    1
-  1
-S 7
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-8A7
+889
 100
 AcDbEntity
   8
@@ -66763,7 +65495,7 @@ unicode
   0
 MTEXT
   5
-8A8
+88A
 100
 AcDbEntity
   8
@@ -66809,7 +65541,7 @@ unicode
   0
 MTEXT
   5
-8A9
+88B
 100
 AcDbEntity
   8
@@ -66855,7 +65587,7 @@ unicode
   0
 MTEXT
   5
-8AA
+88C
 100
 AcDbEntity
   8
@@ -66901,7 +65633,7 @@ unicode
   0
 MTEXT
   5
-8AB
+88D
 100
 AcDbEntity
   8
@@ -66947,53 +65679,7 @@ unicode
   0
 MTEXT
   5
-8AC
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-2300
- 20
-5650
- 30
-0
- 40
-100
- 41
-208.4134290444941
- 71
-    4
- 72
-    1
-  1
-S 7
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-8AD
+88E
 100
 AcDbEntity
   8
@@ -67039,7 +65725,7 @@ unicode
   0
 MTEXT
   5
-8AE
+88F
 100
 AcDbEntity
   8
@@ -67085,7 +65771,7 @@ unicode
   0
 MTEXT
   5
-8AF
+890
 100
 AcDbEntity
   8
@@ -67131,7 +65817,7 @@ unicode
   0
 MTEXT
   5
-8B0
+891
 100
 AcDbEntity
   8
@@ -67177,7 +65863,7 @@ unicode
   0
 MTEXT
   5
-8B1
+892
 100
 AcDbEntity
   8
@@ -67223,7 +65909,7 @@ unicode
   0
 MTEXT
   5
-8B2
+893
 100
 AcDbEntity
   8
@@ -67269,7 +65955,7 @@ unicode
   0
 MTEXT
   5
-8B3
+894
 100
 AcDbEntity
   8
@@ -67315,7 +66001,7 @@ unicode
   0
 MTEXT
   5
-8B4
+895
 100
 AcDbEntity
   8
@@ -67361,7 +66047,7 @@ unicode
   0
 MTEXT
   5
-8B5
+896
 100
 AcDbEntity
   8
@@ -67407,7 +66093,7 @@ unicode
   0
 MTEXT
   5
-8B6
+897
 100
 AcDbEntity
   8
@@ -67453,7 +66139,7 @@ unicode
   0
 MTEXT
   5
-8B7
+898
 100
 AcDbEntity
   8
@@ -67499,7 +66185,7 @@ unicode
   0
 MTEXT
   5
-8B8
+899
 100
 AcDbEntity
   8
@@ -67545,7 +66231,7 @@ unicode
   0
 MTEXT
   5
-8B9
+89A
 100
 AcDbEntity
   8
@@ -67591,99 +66277,7 @@ unicode
   0
 MTEXT
   5
-8BA
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-12800
- 20
-8600
- 30
-0
- 40
-100
- 41
-208.4134290444941
- 71
-    4
- 72
-    1
-  1
-S 7
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-8BB
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-11800
- 20
-5700
- 30
-0
- 40
-100
- 41
-208.4134290444941
- 71
-    4
- 72
-    1
-  1
-S 7
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-8BC
+89B
 100
 AcDbEntity
   8
@@ -67729,7 +66323,7 @@ unicode
   0
 MTEXT
   5
-8BD
+89C
 100
 AcDbEntity
   8
@@ -67775,7 +66369,7 @@ unicode
   0
 MTEXT
   5
-8BE
+89D
 100
 AcDbEntity
   8
@@ -67821,7 +66415,7 @@ unicode
   0
 MTEXT
   5
-8BF
+89E
 100
 AcDbEntity
   8
@@ -67867,7 +66461,7 @@ unicode
   0
 MTEXT
   5
-8C0
+89F
 100
 AcDbEntity
   8
@@ -67913,7 +66507,7 @@ unicode
   0
 MTEXT
   5
-8C1
+8A0
 100
 AcDbEntity
   8
@@ -67959,7 +66553,7 @@ unicode
   0
 MTEXT
   5
-8C2
+8A1
 100
 AcDbEntity
   8
@@ -68005,7 +66599,7 @@ unicode
   0
 MTEXT
   5
-8C3
+8A2
 100
 AcDbEntity
   8
@@ -68051,7 +66645,7 @@ unicode
   0
 MTEXT
   5
-8C4
+8A3
 100
 AcDbEntity
   8
@@ -68097,7 +66691,7 @@ unicode
   0
 MTEXT
   5
-8C5
+8A4
 100
 AcDbEntity
   8
@@ -68143,7 +66737,7 @@ unicode
   0
 MTEXT
   5
-8C6
+8A5
 100
 AcDbEntity
   8
@@ -68189,7 +66783,7 @@ unicode
   0
 MTEXT
   5
-8C7
+8A6
 100
 AcDbEntity
   8
@@ -68235,7 +66829,7 @@ unicode
   0
 MTEXT
   5
-8C8
+8A7
 100
 AcDbEntity
   8
@@ -68281,7 +66875,7 @@ unicode
   0
 MTEXT
   5
-8C9
+8A8
 100
 AcDbEntity
   8
@@ -68327,7 +66921,7 @@ unicode
   0
 MTEXT
   5
-8CA
+8A9
 100
 AcDbEntity
   8
@@ -68373,7 +66967,7 @@ unicode
   0
 MTEXT
   5
-8CB
+8AA
 100
 AcDbEntity
   8
@@ -68419,7 +67013,7 @@ unicode
   0
 MTEXT
   5
-8CC
+8AB
 100
 AcDbEntity
   8
@@ -68465,7 +67059,7 @@ unicode
   0
 MTEXT
   5
-8CD
+8AC
 100
 AcDbEntity
   8
@@ -68511,7 +67105,7 @@ unicode
   0
 MTEXT
   5
-8CE
+8AD
 100
 AcDbEntity
   8
@@ -68557,7 +67151,7 @@ unicode
   0
 MTEXT
   5
-8CF
+8AE
 100
 AcDbEntity
   8
@@ -68603,7 +67197,7 @@ unicode
   0
 MTEXT
   5
-8D0
+8AF
 100
 AcDbEntity
   8
@@ -68649,7 +67243,7 @@ unicode
   0
 MTEXT
   5
-8D1
+8B0
 100
 AcDbEntity
   8
@@ -68695,7 +67289,7 @@ unicode
   0
 MTEXT
   5
-8D2
+8B1
 100
 AcDbEntity
   8
@@ -68741,7 +67335,7 @@ unicode
   0
 MTEXT
   5
-8D3
+8B2
 100
 AcDbEntity
   8
@@ -68787,7 +67381,7 @@ unicode
   0
 MTEXT
   5
-8D4
+8B3
 100
 AcDbEntity
   8
@@ -68833,7 +67427,7 @@ unicode
   0
 MTEXT
   5
-8D5
+8B4
 100
 AcDbEntity
   8
@@ -68879,7 +67473,7 @@ unicode
   0
 MTEXT
   5
-8D6
+8B5
 100
 AcDbEntity
   8
@@ -68925,7 +67519,7 @@ unicode
   0
 MTEXT
   5
-8D7
+8B6
 100
 AcDbEntity
   8
@@ -68971,7 +67565,7 @@ unicode
   0
 MTEXT
   5
-8D8
+8B7
 100
 AcDbEntity
   8
@@ -69017,7 +67611,7 @@ unicode
   0
 MTEXT
   5
-8D9
+8B8
 100
 AcDbEntity
   8
@@ -69063,7 +67657,7 @@ unicode
   0
 MTEXT
   5
-8DA
+8B9
 100
 AcDbEntity
   8
@@ -69109,7 +67703,7 @@ unicode
   0
 MTEXT
   5
-8DB
+8BA
 100
 AcDbEntity
   8
@@ -69155,7 +67749,7 @@ unicode
   0
 MTEXT
   5
-8DC
+8BB
 100
 AcDbEntity
   8
@@ -69201,7 +67795,7 @@ unicode
   0
 MTEXT
   5
-8DD
+8BC
 100
 AcDbEntity
   8
@@ -69247,7 +67841,7 @@ unicode
   0
 MTEXT
   5
-8DE
+8BD
 100
 AcDbEntity
   8
@@ -69293,7 +67887,7 @@ unicode
   0
 MTEXT
   5
-8DF
+8BE
 100
 AcDbEntity
   8
@@ -69339,7 +67933,7 @@ unicode
   0
 MTEXT
   5
-8E0
+8BF
 100
 AcDbEntity
   8
@@ -69385,7 +67979,7 @@ unicode
   0
 MTEXT
   5
-8E1
+8C0
 100
 AcDbEntity
   8
@@ -69431,7 +68025,7 @@ unicode
   0
 MTEXT
   5
-8E2
+8C1
 100
 AcDbEntity
   8
@@ -69477,7 +68071,7 @@ unicode
   0
 MTEXT
   5
-8E3
+8C2
 100
 AcDbEntity
   8
@@ -69523,7 +68117,7 @@ unicode
   0
 MTEXT
   5
-8E4
+8C3
 100
 AcDbEntity
   8
@@ -69569,7 +68163,7 @@ unicode
   0
 MTEXT
   5
-8E5
+8C4
 100
 AcDbEntity
   8
@@ -69615,7 +68209,7 @@ unicode
   0
 MTEXT
   5
-8E6
+8C5
 100
 AcDbEntity
   8
@@ -69661,7 +68255,7 @@ unicode
   0
 MTEXT
   5
-8E7
+8C6
 100
 AcDbEntity
   8
@@ -69707,7 +68301,7 @@ unicode
   0
 MTEXT
   5
-8E8
+8C7
 100
 AcDbEntity
   8
@@ -69753,7 +68347,7 @@ unicode
   0
 MTEXT
   5
-8E9
+8C8
 100
 AcDbEntity
   8
@@ -69799,7 +68393,7 @@ unicode
   0
 MTEXT
   5
-8EA
+8C9
 100
 AcDbEntity
   8
@@ -69845,7 +68439,7 @@ unicode
   0
 MTEXT
   5
-8EB
+8CA
 100
 AcDbEntity
   8
@@ -69891,7 +68485,7 @@ unicode
   0
 MTEXT
   5
-8EC
+8CB
 100
 AcDbEntity
   8
@@ -69937,7 +68531,7 @@ unicode
   0
 MTEXT
   5
-8ED
+8CC
 100
 AcDbEntity
   8
@@ -69983,7 +68577,7 @@ unicode
   0
 MTEXT
   5
-8EE
+8CD
 100
 AcDbEntity
   8
@@ -70029,7 +68623,7 @@ unicode
   0
 MTEXT
   5
-8EF
+8CE
 100
 AcDbEntity
   8
@@ -70075,7 +68669,7 @@ unicode
   0
 MTEXT
   5
-8F0
+8CF
 100
 AcDbEntity
   8
@@ -70121,7 +68715,7 @@ unicode
   0
 MTEXT
   5
-8F1
+8D0
 100
 AcDbEntity
   8
@@ -70167,7 +68761,7 @@ unicode
   0
 MTEXT
   5
-8F2
+8D1
 100
 AcDbEntity
   8
@@ -70213,7 +68807,7 @@ unicode
   0
 MTEXT
   5
-8F3
+8D2
 100
 AcDbEntity
   8
@@ -70259,7 +68853,7 @@ unicode
   0
 MTEXT
   5
-8F4
+8D3
 100
 AcDbEntity
   8
@@ -70305,7 +68899,7 @@ unicode
   0
 MTEXT
   5
-8F5
+8D4
 100
 AcDbEntity
   8
@@ -70351,7 +68945,7 @@ unicode
   0
 MTEXT
   5
-8F6
+8D5
 100
 AcDbEntity
   8
@@ -70397,7 +68991,7 @@ unicode
   0
 MTEXT
   5
-8F7
+8D6
 100
 AcDbEntity
   8
@@ -70443,7 +69037,7 @@ unicode
   0
 MTEXT
   5
-8F8
+8D7
 100
 AcDbEntity
   8
@@ -70489,7 +69083,7 @@ unicode
   0
 MTEXT
   5
-8F9
+8D8
 100
 AcDbEntity
   8
@@ -70535,7 +69129,7 @@ unicode
   0
 MTEXT
   5
-8FA
+8D9
 100
 AcDbEntity
   8
@@ -70581,7 +69175,7 @@ unicode
   0
 MTEXT
   5
-8FB
+8DA
 100
 AcDbEntity
   8
@@ -70627,7 +69221,7 @@ unicode
   0
 MTEXT
   5
-8FC
+8DB
 100
 AcDbEntity
   8
@@ -70673,7 +69267,7 @@ unicode
   0
 MTEXT
   5
-8FD
+8DC
 100
 AcDbEntity
   8
@@ -70719,7 +69313,7 @@ unicode
   0
 MTEXT
   5
-8FE
+8DD
 100
 AcDbEntity
   8
@@ -70765,7 +69359,7 @@ unicode
   0
 MTEXT
   5
-8FF
+8DE
 100
 AcDbEntity
   8
@@ -70811,7 +69405,7 @@ unicode
   0
 MTEXT
   5
-900
+8DF
 100
 AcDbEntity
   8
@@ -70857,7 +69451,7 @@ unicode
   0
 MTEXT
   5
-901
+8E0
 100
 AcDbEntity
   8
@@ -70903,7 +69497,7 @@ unicode
   0
 MTEXT
   5
-902
+8E1
 100
 AcDbEntity
   8
@@ -70949,7 +69543,7 @@ unicode
   0
 MTEXT
   5
-903
+8E2
 100
 AcDbEntity
   8
@@ -70993,265 +69587,9 @@ unicode
  44
 1
   0
-MTEXT
-  5
-904
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-8900
- 20
-5800
- 30
-0
- 40
-100
- 41
-186.1111111111111
- 71
-    4
- 72
-    1
-  1
-T 1
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-905
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-7000
- 20
-7100
- 30
-0
- 40
-100
- 41
-208.3333333333333
- 71
-    4
- 72
-    1
-  1
-T 2
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-LINE
-  5
-906
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-8800
- 20
-5700
- 11
-9200
- 21
-5700
-  0
-MTEXT
-  5
-907
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-3800
- 20
-7200
- 30
-0
- 40
-100
- 41
-208.3333333333335
- 71
-    4
- 72
-    1
-  1
-T 3
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-LINE
-  5
-908
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-3700
- 20
-7100
- 11
-4100
- 21
-7100
-  0
-MTEXT
-  5
-909
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-5200
- 20
-12900
- 30
-0
- 40
-100
- 41
-219.4444444444445
- 71
-    4
- 72
-    1
-  1
-T 4
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-LINE
-  5
-90A
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-5100
- 20
-12800
- 11
-5500
- 21
-12800
-  0
 INSERT
   5
-90B
+8E3
 100
 AcDbEntity
   8
@@ -71291,7 +69629,7 @@ tail
   0
 INSERT
   5
-90C
+8E4
 100
 AcDbEntity
   8
@@ -71331,7 +69669,7 @@ tail
   0
 INSERT
   5
-90D
+8E5
 100
 AcDbEntity
   8
@@ -71371,7 +69709,7 @@ data
   0
 MTEXT
   5
-90E
+8E6
 100
 AcDbEntity
   8
@@ -71417,7 +69755,7 @@ unicode
   0
 MTEXT
   5
-90F
+8E7
 100
 AcDbEntity
   8
@@ -71463,7 +69801,7 @@ unicode
   0
 MTEXT
   5
-910
+8E8
 100
 AcDbEntity
   8
@@ -71509,7 +69847,7 @@ unicode
   0
 INSERT
   5
-911
+8E9
 100
 AcDbEntity
   8
@@ -71549,7 +69887,7 @@ socket-rj45
   0
 MTEXT
   5
-912
+8EA
 100
 AcDbEntity
   8
@@ -71595,7 +69933,7 @@ unicode
   0
 INSERT
   5
-913
+8EB
 100
 AcDbEntity
   8
@@ -71635,7 +69973,7 @@ tail
   0
 INSERT
   5
-914
+8EC
 100
 AcDbEntity
   8
@@ -71675,7 +70013,7 @@ tail
   0
 MTEXT
   5
-915
+8ED
 100
 AcDbEntity
   8
@@ -71721,7 +70059,7 @@ unicode
   0
 MTEXT
   5
-916
+8EE
 100
 AcDbEntity
   8
@@ -71767,7 +70105,7 @@ unicode
   0
 INSERT
   5
-917
+8EF
 100
 AcDbEntity
   8
@@ -71807,7 +70145,7 @@ tail
   0
 MTEXT
   5
-918
+8F0
 100
 AcDbEntity
   8
@@ -71853,179 +70191,7 @@ unicode
   0
 INSERT
   5
-919
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-tail
- 10
-7800
- 20
-6200
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-90
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-MTEXT
-  5
-91A
-100
-AcDbEntity
-  8
-smart_light_line
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-7500
- 20
-6000
- 30
-0
- 40
-100
- 41
-275.0000000000001
- 71
-    4
- 72
-    1
-  1
-L 26
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-INSERT
-  5
-91B
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-tail
- 10
-14296.28486776242
- 20
-8300.322233754932
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-180
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-MTEXT
-  5
-91C
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-14200
- 20
-8000
- 30
-0
- 40
-100
- 41
-263.9689846000496
- 71
-    4
- 72
-    1
-  1
-S 51
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-INSERT
-  5
-91D
+8F1
 100
 AcDbEntity
   8
@@ -72065,7 +70231,7 @@ tail
   0
 MTEXT
   5
-91E
+8F2
 100
 AcDbEntity
   8
@@ -72111,7 +70277,7 @@ unicode
   0
 INSERT
   5
-91F
+8F3
 100
 AcDbEntity
   8
@@ -72151,7 +70317,7 @@ tail
   0
 INSERT
   5
-920
+8F4
 100
 AcDbEntity
   8
@@ -72191,7 +70357,7 @@ tail
   0
 MTEXT
   5
-921
+8F5
 100
 AcDbEntity
   8
@@ -72237,7 +70403,7 @@ unicode
   0
 MTEXT
   5
-922
+8F6
 100
 AcDbEntity
   8
@@ -72283,7 +70449,7 @@ unicode
   0
 INSERT
   5
-923
+8F7
 100
 AcDbEntity
   8
@@ -72323,7 +70489,7 @@ tail
   0
 MTEXT
   5
-924
+8F8
 100
 AcDbEntity
   8
@@ -72369,7 +70535,7 @@ unicode
   0
 MTEXT
   5
-925
+8F9
 100
 AcDbEntity
   8
@@ -72415,7 +70581,7 @@ unicode
   0
 MTEXT
   5
-926
+8FA
 100
 AcDbEntity
   8
@@ -72461,7 +70627,7 @@ unicode
   0
 MTEXT
   5
-927
+8FB
 100
 AcDbEntity
   8
@@ -72507,7 +70673,7 @@ unicode
   0
 MTEXT
   5
-928
+8FC
 100
 AcDbEntity
   8
@@ -72553,7 +70719,7 @@ unicode
   0
 MTEXT
   5
-929
+8FD
 100
 AcDbEntity
   8
@@ -72599,7 +70765,7 @@ unicode
   0
 MTEXT
   5
-92A
+8FE
 100
 AcDbEntity
   8
@@ -72645,7 +70811,7 @@ unicode
   0
 MTEXT
   5
-92B
+8FF
 100
 AcDbEntity
   8
@@ -72691,7 +70857,7 @@ unicode
   0
 MTEXT
   5
-92C
+900
 100
 AcDbEntity
   8
@@ -72737,7 +70903,7 @@ unicode
   0
 MTEXT
   5
-92D
+901
 100
 AcDbEntity
   8
@@ -72783,7 +70949,7 @@ unicode
   0
 MTEXT
   5
-92E
+902
 100
 AcDbEntity
   8
@@ -72829,7 +70995,7 @@ unicode
   0
 INSERT
   5
-92F
+903
 100
 AcDbEntity
   8
@@ -72869,7 +71035,7 @@ tail
   0
 MTEXT
   5
-930
+904
 100
 AcDbEntity
   8
@@ -72915,93 +71081,7 @@ unicode
   0
 INSERT
   5
-931
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-tail
- 10
-7811.010497402575
- 20
-6243.195867531894
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-90
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-MTEXT
-  5
-932
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-7200
- 20
-6200
- 30
-0
- 40
-100
- 41
-286.191206822272
- 71
-    4
- 72
-    1
-  1
-S 53
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-INSERT
-  5
-933
+905
 100
 AcDbEntity
   8
@@ -73041,7 +71121,7 @@ tail
   0
 MTEXT
   5
-934
+906
 100
 AcDbEntity
   8
@@ -73087,7 +71167,7 @@ unicode
   0
 INSERT
   5
-935
+907
 100
 AcDbEntity
   8
@@ -73127,7 +71207,7 @@ tail
   0
 MTEXT
   5
-936
+908
 100
 AcDbEntity
   8
@@ -73173,93 +71253,7 @@ unicode
   0
 INSERT
   5
-937
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-tail
- 10
-13739.17018417939
- 20
-8300.324899606998
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-180
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-MTEXT
-  5
-938
-100
-AcDbEntity
-  8
-smart_socket
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-13700
- 20
-8000
- 30
-0
- 40
-100
- 41
-286.191206822272
- 71
-    4
- 72
-    1
-  1
-S 56
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-INSERT
-  5
-939
+909
 100
 AcDbEntity
   8
@@ -73299,7 +71293,7 @@ data
   0
 MTEXT
   5
-93A
+90A
 100
 AcDbEntity
   8
@@ -73345,7 +71339,7 @@ unicode
   0
 INSERT
   5
-93B
+90B
 100
 AcDbEntity
   8
@@ -73385,7 +71379,7 @@ socket1
   0
 MTEXT
   5
-93C
+90C
 100
 AcDbEntity
   8
@@ -73431,179 +71425,7 @@ unicode
   0
 INSERT
   5
-93D
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-data
- 10
-18800
- 20
-12600
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-MTEXT
-  5
-93E
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-18700
- 20
-12900
- 30
-0
- 40
-100
- 41
-352.7777777777778
- 71
-    4
- 72
-    1
-  1
-R 1.10
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-INSERT
-  5
-93F
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-data
- 10
-8200
- 20
-12000
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
-MTEXT
-  5
-940
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-8100
- 20
-11800
- 30
-0
- 40
-100
- 41
-352.7777777777779
- 71
-    4
- 72
-    1
-  1
-R 1.13
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-INSERT
-  5
-941
+90D
 100
 AcDbEntity
   8
@@ -73643,7 +71465,7 @@ data
   0
 MTEXT
   5
-942
+90E
 100
 AcDbEntity
   8
@@ -73689,7 +71511,7 @@ unicode
   0
 INSERT
   5
-943
+90F
 100
 AcDbEntity
   8
@@ -73729,7 +71551,7 @@ tail
   0
 MTEXT
   5
-944
+910
 100
 AcDbEntity
   8
@@ -73775,7 +71597,7 @@ unicode
   0
 INSERT
   5
-945
+911
 100
 AcDbEntity
   8
@@ -73813,55 +71635,9 @@ data
  45
 1
   0
-MTEXT
-  5
-946
-100
-AcDbEntity
-  8
-smart_data
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-5800
- 20
-10900
- 30
-0
- 40
-100
- 41
-297.2222222222224
- 71
-    4
- 72
-    1
-  1
-R 1.5
-  7
-unicode
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
 INSERT
   5
-947
+912
 100
 AcDbEntity
   8
@@ -73901,7 +71677,7 @@ data
   0
 MTEXT
   5
-948
+913
 100
 AcDbEntity
   8
@@ -73947,7 +71723,7 @@ unicode
   0
 INSERT
   5
-949
+914
 100
 AcDbEntity
   8
@@ -73987,7 +71763,7 @@ data
   0
 MTEXT
   5
-94A
+915
 100
 AcDbEntity
   8
@@ -74033,7 +71809,7 @@ unicode
   0
 INSERT
   5
-94B
+916
 100
 AcDbEntity
   8
@@ -74073,7 +71849,7 @@ data
   0
 MTEXT
   5
-94C
+917
 100
 AcDbEntity
   8
@@ -74102,6 +71878,1864 @@ AcDbMText
     1
   1
 R 1.17
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+918
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+data
+ 10
+18200
+ 20
+9900
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+919
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+18100
+ 20
+10200
+ 30
+0
+ 40
+100
+ 41
+352.7777777777778
+ 71
+    4
+ 72
+    1
+  1
+R 1.10
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+91A
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+8500
+ 20
+11400
+ 30
+0
+ 40
+100
+ 41
+352.7777777777779
+ 71
+    4
+ 72
+    1
+  1
+R 1.13
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+91B
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+data
+ 10
+8300
+ 20
+11300
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+91C
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+5800
+ 20
+10800
+ 30
+0
+ 40
+100
+ 41
+297.2222222222224
+ 71
+    4
+ 72
+    1
+  1
+R 1.5
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+91D
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+data
+ 10
+5900
+ 20
+11300
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+91E
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+5800
+ 20
+11600
+ 30
+0
+ 40
+100
+ 41
+297.2222222222223
+ 71
+    4
+ 72
+    1
+  1
+R 1.9
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+91F
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+data
+ 10
+9929.674639227687
+ 20
+6797.122515469342
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+90
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+920
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+9800
+ 20
+7000
+ 30
+0
+ 40
+100
+ 41
+341.6666666666669
+ 71
+    4
+ 72
+    1
+  1
+C 1.16
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+90
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+921
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+data
+ 10
+9729.674639227687
+ 20
+6797.122515469342
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+90
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+922
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+9600
+ 20
+7000
+ 30
+0
+ 40
+100
+ 41
+275
+ 71
+    4
+ 72
+    1
+  1
+R 1.1
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+90
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+923
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+7500
+ 20
+7700
+ 30
+0
+ 40
+100
+ 41
+286.191206822272
+ 71
+    4
+ 72
+    1
+  1
+S 53
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+924
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+socket1
+ 10
+7999.677676609919
+ 20
+7715.841496333576
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+180
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+925
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+7607.232980985164
+ 20
+6400
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+90
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+926
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+7407.232980985164
+ 20
+6200
+ 30
+0
+ 40
+100
+ 41
+286.1912068222719
+ 71
+    4
+ 72
+    1
+  1
+S 58
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+927
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+14119.50385648817
+ 20
+8307.035855850332
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+180
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+928
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+14023.21898872575
+ 20
+8006.7136220954
+ 30
+0
+ 40
+100
+ 41
+286.1912068222719
+ 71
+    4
+ 72
+    1
+  1
+S 60
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+929
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+13392.68067394184
+ 20
+13500.61828606713
+ 30
+0
+ 40
+100
+ 41
+441.6666666666669
+ 71
+    4
+ 72
+    1
+  1
+LAN 13
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+92A
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+socket-rj45
+ 10
+16400
+ 20
+13189.90400173929
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+270
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+92B
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+16600
+ 20
+13189.90400173929
+ 30
+0
+ 40
+100
+ 41
+441.6666666666667
+ 71
+    4
+ 72
+    1
+  1
+LAN 10
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+92C
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+socket1
+ 10
+16017.6041946973
+ 20
+13226.62331408581
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+0
+ 45
+0
+  0
+MTEXT
+  5
+92D
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+16200
+ 20
+13500
+ 30
+0
+ 40
+100
+ 41
+208.4134290444941
+ 71
+    4
+ 72
+    1
+  1
+S 7
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+92E
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+11993.49984490132
+ 20
+9393.499844901322
+ 30
+0
+ 40
+100
+ 41
+386.1111111111112
+ 71
+    4
+ 72
+    1
+  1
+LAN 9
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+92F
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+socket-rj45
+ 10
+7000
+ 20
+13214.24782676041
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+270
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+930
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+7200
+ 20
+13213.55305254704
+ 30
+0
+ 40
+100
+ 41
+397.2222222222222
+ 71
+    4
+ 72
+    1
+  1
+LAN 4
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+931
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+6700
+ 20
+13500
+ 30
+0
+ 40
+100
+ 41
+208.4134290444941
+ 71
+    4
+ 72
+    1
+  1
+S 7
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+932
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+socket-rj45
+ 10
+2400
+ 20
+5600
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+933
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+1900
+ 20
+5450
+ 30
+0
+ 40
+100
+ 41
+208.4134290444941
+ 71
+    4
+ 72
+    1
+  1
+S 7
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+934
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+2200
+ 20
+5800
+ 30
+0
+ 40
+100
+ 41
+441.6666666666667
+ 71
+    4
+ 72
+    1
+  1
+LAN 12
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+935
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+7100
+ 20
+7800
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+936
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+7000
+ 20
+8100
+ 30
+0
+ 40
+100
+ 41
+263.9689846000496
+ 71
+    4
+ 72
+    1
+  1
+S 61
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+937
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+socket-rj45
+ 10
+13581.97754217058
+ 20
+8300.325195328247
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+180
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+938
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+13500
+ 20
+8100
+ 30
+0
+ 40
+100
+ 41
+441.6666666666669
+ 71
+    4
+ 72
+    1
+  1
+LAN 15
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+939
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+13000
+ 20
+8022.038342876072
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+180
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+93A
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+12960.82981582061
+ 20
+7721.713443269074
+ 30
+0
+ 40
+100
+ 41
+286.191206822272
+ 71
+    4
+ 72
+    1
+  1
+S 56
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+93B
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+12900
+ 20
+13800
+ 30
+0
+ 40
+100
+ 41
+286.1912068222719
+ 71
+    4
+ 72
+    1
+  1
+S 62
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+93C
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+12800
+ 20
+13500
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+270
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+93D
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+12204.78727439593
+ 20
+8993.648331160077
+ 30
+0
+ 40
+100
+ 41
+286.1912068222719
+ 71
+    4
+ 72
+    1
+  1
+S 62
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+93E
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+12303.59883528884
+ 20
+8740.325360772313
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+93F
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+13100
+ 20
+13500
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+270
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+940
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+12140
+ 20
+9140
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+941
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+13692.55321137431
+ 20
+8300.646769195
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+180
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+942
+100
+AcDbEntity
+  8
+smart_socket
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+13596.26834361189
+ 20
+8000.324535440068
+ 30
+0
+ 40
+100
+ 41
+286.1912068222719
+ 71
+    4
+ 72
+    1
+  1
+S 50
   7
 unicode
 210
@@ -74149,7 +73783,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-94D
+943
 100
 AcDbPlotSettings
   6
