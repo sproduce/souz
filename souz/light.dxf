@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-smart_data
+smart_lan
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-7277.079313661271
+10945.46979646476
  22
-3622.075676482985
+4930.160868509109
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-5839.22502996651
+13636.97876280856
  41
-2.025062656641604
+1.8734335839599
  42
 50
  43
@@ -2499,7 +2499,7 @@ AcDbLayerTableRecord
   2
 smart_data
  70
-    0
+    1
  62
     7
   6
@@ -2521,7 +2521,7 @@ AcDbLayerTableRecord
   2
 smart_lan
  70
-    1
+    0
  62
     7
   6
@@ -64097,6 +64097,264 @@ data
  45
 1
   0
+MTEXT
+  5
+673
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+9900
+ 20
+3000
+ 30
+0
+ 40
+100
+ 41
+208.3333333333335
+ 71
+    4
+ 72
+    1
+  1
+D 3
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+674
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+10000
+ 20
+2700
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+INSERT
+  5
+675
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+10400
+ 20
+2700
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+0
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+676
+100
+AcDbEntity
+  8
+smart_data
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+10300
+ 20
+3000
+ 30
+0
+ 40
+100
+ 41
+219.4444444444445
+ 71
+    4
+ 72
+    1
+  1
+D 4
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+INSERT
+  5
+677
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+tail
+ 10
+9916.99525213802
+ 20
+2367.751240685186
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+180
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
+MTEXT
+  5
+678
+100
+AcDbEntity
+  8
+smart_lan
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+9700
+ 20
+2000
+ 30
+0
+ 40
+100
+ 41
+441.6666666666667
+ 71
+    4
+ 72
+    1
+  1
+LAN 18
+  7
+unicode
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
 ENDSEC
   0
 SECTION
@@ -64129,7 +64387,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-673
+679
 100
 AcDbPlotSettings
   6
